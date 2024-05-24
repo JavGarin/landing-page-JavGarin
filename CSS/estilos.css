@@ -1,0 +1,75 @@
+.portada {
+    width: 400px;
+}
+
+.titulo {
+    color: chocolate;
+    font-size: 60px;
+    background-color: beige;
+}
+
+.subtitulo {
+    color: saddlebrown;
+    font-size: 30px;
+    background-color: bisque;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 70%;
+    float: right;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.imagen-columna {
+    width: 220px;
+    height: 220px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.producto-imagen {
+    max-width: 200px;
+    height: auto;
+}
+
+.compra {
+    display: block;
+    width: 200px;
+    padding: 180px;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: white;
+    background-color: rgb(242, 148, 81);
+}
