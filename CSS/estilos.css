@@ -73,3 +73,72 @@ td {
     color: white;
     background-color: rgb(242, 148, 81);
 }
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .portada {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .subtitulo {
+        font-size: 24px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    table, .compra {
+        width: 100%;
+    }
+
+    .compra {
+        padding: 50px;
+    }
+
+    .imagen-columna {
+        width: 150px;
+        height: 150px;
+    }
+
+    .producto-imagen {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 30px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .producto-imagen {
+        max-width: 100px;
+    }
+
+    .compra {
+        padding: 30px;
+    }
+}
